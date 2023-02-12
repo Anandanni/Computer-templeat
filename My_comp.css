@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+   font-size: 2rem;
+   color: black;
+   font-family: 'Lobster', cursive;
+
+}
+.logo:hover{
+    color: rgb(60, 194, 45);
+}
+.nav-link{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(209, 57, 57);
+    text-transform: uppercase;
+
+}
+.nav-link:hover{
+    color: black;
+    background-color: burlywood;
+    font-family: 'Rubik', sans-serif;
+
+}
+.secrch{
+    height: 40px;
+    width: 80%;
+    border-radius:  60px;
+    margin-right: -70px; 
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    border: 2px solid red;
+}
+.btn0{
+    width:120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color:red;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.main{
+    background-image:url(/image/bg/csbg.jfif);
+    /* background-color: rgb(223, 188, 35); */
+    background-size: cover;
+    height: 70vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.btn1{
+    height:54px;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    width: 35%;
+    outline: none;
+    background-color: red;
+    border-radius: 50px;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.card:hover{
+    box-shadow: 3px -16px 121px -2px rgba(230,47,156,0.74);
+    -webkit-box-shadow: 3px -16px 121px -2px rgba(230,47,156,0.74);
+    -moz-box-shadow: 3px -16px 121px -2px rgba(230,47,156,0.74);
+    transition: 0.5s;
+    border-radius: 100px;
+  
+}
+.Banner{
+  
+    background-image: url(/image/product/p.png);
+    background-size: cover;
+    height: 70vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.Banner h1{
+    font-family: 'Pacifico', cursive;
+
+    
+}
+.btn2{
+    border-radius: 50px;
+   
+}
+.news{
+    background-color: black;
+    color: white;
+
+
+}
+.btn2{
+    height: 64px;
+    width: 100px;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: #000;
+    color: white;
+    margin-top: 20px;
+    font-weight:600 ;
+    border-radius: 5px;
+
+
+}
+.btn2:hover{
+    background-color: burlywood;
+
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+}
+  
